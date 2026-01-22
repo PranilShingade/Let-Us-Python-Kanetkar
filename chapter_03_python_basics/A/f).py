@@ -16,3 +16,17 @@ angle_c = math.degrees(math.acos((a * a + b * b - c * c) / (2 * a * b)))
 print("Angle A:", round(angle_a))
 print("Angle B:", round(angle_b))
 print("Angle C:", round(angle_c))
+
+# Explanation:
+# The program first imports the math module to access mathematical functions.
+# It then prompts the user to input the lengths of the three sides of the triangle.
+# Using the cosine rule, it calculates each angle in radians and converts it to degrees.
+# Finally, it rounds each angle to the nearest integer and prints the results.
+# Example Output:
+# Enter the length of side a: 3
+# Enter the length of side b: 4
+# Enter the length of side c: 5
+
+# Angle A: 37
+# Angle B: 53
+# Angle C: 90
